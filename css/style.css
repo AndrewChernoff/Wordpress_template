@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .promo {
   min-height: 800px;
   background: url("../img/main_bgmain-bckg.jpg") center center/cover no-repeat;
@@ -23,7 +27,7 @@
 .logo .logo_text {
   text-align: center;
   margin-top: 15px;
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
@@ -35,8 +39,6 @@
 }
 
 .promo_info h1 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 41px;
   text-transform: uppercase;
@@ -45,7 +47,6 @@
 }
 
 .promo_info .simple {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -55,7 +56,6 @@
 }
 
 .promo_info .correct {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
@@ -64,10 +64,15 @@
 }
 
 .promo_info .descr {
-  font-family: Roboto;
   font-weight: 300;
   font-size: 21px;
   color: #ffffff;
+  margin-top: 20px;
+}
+
+.promo_info .descr span {
+  color: #f9bf3b;
+  font-weight: bold;
 }
 
 .promo_button,
@@ -86,18 +91,20 @@
   margin-top: 80px;
 }
 
-.more {
+.promo .more {
   text-align: center;
   margin-top: 100px;
 }
 
-.more p {
-  font-family: Roboto;
+.promo .more p {
   font-weight: 200;
   font-size: 15px;
   text-transform: uppercase;
-
   color: #ffffff;
+}
+
+.promo .more img {
+  padding-top: 10px;
 }
 
 /* waiting */
@@ -126,7 +133,7 @@
 
 .waiting_descr {
   text-align: center;
-  font-family: Roboto;
+
   font-size: 23px;
   color: #4a4a4a;
 }
@@ -161,7 +168,7 @@
 
 .optimization_header {
   margin: 108px 0 0 391px;
-  font-family: Roboto;
+
   font-weight: 900;
   font-size: 30px;
   line-height: 30px;
@@ -171,7 +178,7 @@
 
 .optimization_text {
   margin: 25px 0 0 389px;
-  font-family: Roboto;
+
   font-weight: 300;
   font-size: 17px;
   color: #4a4a4a;
@@ -197,7 +204,6 @@
 }
 
 .finish_header {
-  font-family: Roboto;
   font-size: 27px;
   text-transform: uppercase;
   color: #efefef;
@@ -228,7 +234,7 @@
 
 .finish .container .finish_items .finish_item .icon_descr {
   margin: 25px 0 0 0;
-  font-family: Roboto;
+
   font-weight: 300;
   font-size: 17px;
   text-align: center;
@@ -247,7 +253,6 @@
 }
 
 .gift .gift_info {
-  font-family: Roboto;
   font-size: 33px;
   color: #252525;
   text-align: center;
@@ -265,7 +270,6 @@
 }
 
 .webinar .container .webinar_header {
-  font-family: Roboto;
   font-size: 30px;
   text-transform: uppercase;
   color: #252525;
@@ -274,7 +278,6 @@
 }
 
 .webinar .container .webinar_info {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 36px;
   text-align: center;
@@ -283,7 +286,6 @@
 }
 
 .webinar .container .hurry {
-  font-family: Roboto;
   font-size: 23px;
   text-align: center;
   color: #4a4a4a;
@@ -298,7 +300,6 @@ footer {
 }
 
 footer .container .links {
-  font-family: Roboto;
   font-weight: 300;
   font-size: 15px;
   text-align: center;
